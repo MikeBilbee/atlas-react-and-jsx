@@ -1,7 +1,8 @@
 // App.jsx
 import Header from './components/Header';
-import Section from './components/Section'; // Import the Section component
+import Section from './components/Section';
 import HelpfulResource from './components/HelpfulResource';
+import AboutMe from './components/AboutMe';
 
 function App() {
 	return (
@@ -24,19 +25,20 @@ applications. React has a declarative approach and virtual DOM that make it easi
 				</ul>
 			</Section>
 			<Section title="Helpful Resources">
-        <HelpfulResource 
-          link="https://reactjs.org/tutorial/tutorial.html" 
-          label="Official React Tutorial" 
-        />
-        <HelpfulResource 
-          link="https://www.youtube.com/watch?v=LDB4uaJ87e0" 
-          label="React Crash Course for Beginners" 
-        />
-        <HelpfulResource 
-          link="https://www.w3schools.com/REACT/DEFAULT.ASP" 
-          label="W3Schools React Tutorial" 
-        />
-      </Section>
+				<HelpfulResource 
+					link="https://reactjs.org/tutorial/tutorial.html" 
+					label="Official React Tutorial" 
+				/>
+				<HelpfulResource 
+					link="https://www.youtube.com/watch?v=LDB4uaJ87e0" 
+					label="React Crash Course for Beginners" 
+				/>
+				<HelpfulResource 
+				link="https://www.w3schools.com/REACT/DEFAULT.ASP" 
+				label="W3Schools React Tutorial" 
+				/>
+			</Section>
+			<AboutMe />
 		</div>
 	);
 }
