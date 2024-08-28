@@ -1,3 +1,4 @@
+// SocialLinks.jsx
 import linkedinIcon from '../assets/linkedin.svg';
 import githubIcon from '../assets/github.svg';
 

@@ -1,3 +1,4 @@
+// Greeting.jsx
 import dayImage from '../assets/day.svg';
 import eveningImage from '../assets/evening.svg';
 import nightImage from '../assets/night.svg';
