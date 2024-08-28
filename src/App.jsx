@@ -1,6 +1,7 @@
 // App.jsx
 import Header from './components/Header';
 import Section from './components/Section'; // Import the Section component
+import HelpfulResource from './components/HelpfulResource';
 
 function App() {
 	return (
@@ -22,6 +23,20 @@ applications. React has a declarative approach and virtual DOM that make it easi
 					<li>Flexibility: React can be used for building web applications, mobile apps (with React Native), and even server-side rendering (with Next.js or similar frameworks).</li>
 				</ul>
 			</Section>
+			<Section title="Helpful Resources">
+        <HelpfulResource 
+          link="https://reactjs.org/tutorial/tutorial.html" 
+          label="Official React Tutorial" 
+        />
+        <HelpfulResource 
+          link="https://www.youtube.com/watch?v=LDB4uaJ87e0" 
+          label="React Crash Course for Beginners" 
+        />
+        <HelpfulResource 
+          link="https://www.w3schools.com/REACT/DEFAULT.ASP" 
+          label="W3Schools React Tutorial" 
+        />
+      </Section>
 		</div>
 	);
 }
