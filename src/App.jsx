@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Section from './components/Section';
 import HelpfulResource from './components/HelpfulResource';
 import AboutMe from './components/AboutMe';
+import Footer from './components/Footer';
 
 function App() {
 	return (
@@ -39,6 +40,7 @@ applications. React has a declarative approach and virtual DOM that make it easi
 				/>
 			</Section>
 			<AboutMe />
+			<Footer />
 		</div>
 	);
 }
