@@ -1,17 +1,11 @@
-import Greeting from './components/Greeting';
-//import Socials from './components/SocialLinks';
-//import Section from './components/Section';
-//import Copy from './components/CopyLink';
-//import Help from './components/HelpfulResource';
-//import About from './components/AboutMe';
-//import Footer from './components/Footer';
+import Header from './components/Header'; // Import the Header component
 
 function App() {
-  return (
-    <div className="app">
-      <Greeting /> {/* Render the Greeting component */}
-    </div>
-  );
+	return (
+		<div className="app">
+			<Header /> {/* Render the Header component */}
+		</div>
+	);
 }
 
 export default App;
