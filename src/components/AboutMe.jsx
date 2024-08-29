@@ -5,7 +5,6 @@ const AboutMe = () => {
 	return (
 		<div className="about-me">
 			<img src={profilePicture} alt="Mike" />
-			<h1>About Me</h1>
 			<p>
 				Name: Mike Bilbee <br />
 				Specialization: Full-Stack Web Development <br />
