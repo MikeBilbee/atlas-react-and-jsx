@@ -1,6 +1,7 @@
 // src/App.jsx
 import Header from './components/Header';
 import Section from './components/Section';
+import HelpfulResource from './components/HelpfulResource';
 
 function App() {
 	return (
@@ -20,6 +21,21 @@ function App() {
 					<li>Large community and ecosystem: Extensive resources, libraries, and support available.</li>
 					<li>Improved performance: React's efficient rendering and update mechanisms lead to faster web applications.</li>
 				</ul>
+			</Section>
+
+			<Section title="Helpful resources">
+				<HelpfulResource
+					link="https://www.w3schools.com/REACT/DEFAULT.ASP"
+					label="React Tutorial"
+				/>
+				<HelpfulResource
+					link="https://react.dev/learn"
+					label="(React) Quick Start"
+				/>
+				<HelpfulResource
+					link="https://www.youtube.com/watch?v=LDB4uaJ87e0"
+					label="React Crash Course 2024"
+				/>
 			</Section>
 		</div>
 	);
